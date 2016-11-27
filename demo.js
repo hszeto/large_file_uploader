@@ -9,6 +9,4 @@ $(document).ready(function(){
     // Log the file object
     console.log( $('#upload-file')[0].files[0] );
   });
-
-  
 });
