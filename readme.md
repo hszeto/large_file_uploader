@@ -9,14 +9,15 @@ ___
 
 ##### Example:
 ###### In index.html:
-```<input type="file" name="upload-file" id="upload-file">```
+```<input type="file" name="upload-file" id="upload-file">```   
+
 ```<div id='progress'></div>```
-###### In javascript file: 
- ```$('#upload-file').change(function(){```
-```var file = this.files[0];```
-```$Lfu(file);```
-```console.log( $('#upload-file')[0].files[0] );```
-```});```
+###### In javascript file:   
+```$('#upload-file').change(function(){```   
+```var file = this.files[0];```   
+```$Lfu(file);```   
+```console.log( $('#upload-file')[0].files[0] );```   
+```});```   
 ___
 #### Demo:  
 Visit https://jsfiddle.net/hszeto/mjtjzdwg/
